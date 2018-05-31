@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">EqualChallengeTM</string>
+
+    <string name="title_activity_main">Activida principal</string>
+    <!-- Strings related to login -->
+    <string name="hint_correo">Correo Electronico</string>
+    <string name="hint_pass">Contraseña</string>
+    <string name="accion_ingresar_usuario">Ingresar</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_correo">Cáracter requerido (@)</string>
+    <string name="error_invalida_pass">La contraseña debe ser mayor a 4 caracteres</string>
+    <string name="error_empty_pass">Escriba una contraseña</string>
+    <string name="error_incorrect_pass">Esta contraseña es incorrecta</string>
+    <string name="error_caracter_requerido">Esciba una direcccion de correo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_menu_log">Iniciar Sesión</string>
+
+    <string name="title_activity_full">FullActivity</string>
+
+    <string name="title_activity_fulls">Inicio</string>
+    <string name="title_activity_sig__in">Sign in</string>
+    <string name="title_activity_menu_principal">MenuPrincipal</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="hint_otp">Codigo OTP</string>
+    <string name="titulo_codigo">Codigo Juez</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Torneos</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nombreHT">Nombre</string>
+    <string name="lugarHT">Lugar</string>
+    <string name="fechaHT">Fecha</string>
+</resources>

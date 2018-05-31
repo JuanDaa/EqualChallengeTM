@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="100dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre:"
+        android:id="@+id/textView2"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/btnGuardarPartido" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre:"
+        android:id="@+id/textView3"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/btnPosponerPartido" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/vs"
+        android:src="@mipmap/vs"
+        android:textSize="30sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/btn_restart"
+        android:layout_gravity="center_vertical"
+        android:background="@mipmap/restart"
+        android:layout_alignLeft="@+id/vs"
+        android:layout_alignBottom="@+id/vs"
+        android:layout_alignRight="@+id/vs"
+        android:layout_alignTop="@+id/vs"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Posponer"
+        android:id="@+id/btnPosponerPartido"
+        android:layout_marginStart="46dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/vs"
+        android:background="@drawable/eventos"
+        android:elevation="2dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:id="@+id/btnGuardarPartido"
+        android:layout_marginLeft="33dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/vs"
+        android:layout_marginEnd="46dp"
+        android:background="@drawable/eventos"
+        android:elevation="2dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/txvGanador_1"
+        android:layout_below="@+id/textView2"
+        android:layout_toStartOf="@+id/btnGuardarPartido"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/txvGanador_2"
+        android:layout_below="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:visibility="invisible"/>
+</RelativeLayout>

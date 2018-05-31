@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/noticias"
+            android:icon="@drawable/hojas"
+            android:title="Noticias" />
+        <item
+            android:id="@+id/torneos"
+            android:icon="@drawable/mundo"
+            android:title="Torneos" />
+        <item
+            android:id="@+id/historial"
+            android:icon="@drawable/sujeto"
+            android:title="Historial" />
+        <item
+            android:id="@+id/eliminatorias"
+            android:icon="@drawable/trofeo"
+            android:title="Eliminatorias" />
+    </group>
+
+    <item android:title="Opción">
+        <menu>
+            <item
+                android:id="@+id/salir"
+                android:icon="@drawable/salir"
+                android:title="Salir" />
+        </menu>
+    </item>
+
+</menu>

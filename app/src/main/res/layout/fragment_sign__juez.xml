@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="challenge.sports.com.equalchallengetm.Sign_Juez">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtIn"
+        android:layout_above="@+id/btnIngresoJuez"
+        android:layout_alignParentStart="true">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:hint="@string/hint_otp"
+            android:textAlignment="center"
+            android:id="@+id/etxOtp"
+            android:layout_alignBottom="@+id/txtIn"
+            android:layout_toStartOf="@+id/btnIngresoJuez"
+            android:layout_gravity="center"/>
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingresar"
+        android:id="@+id/btnIngresoJuez"
+        android:layout_centerVertical="true"
+        android:layout_alignEnd="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo_codigo"
+        android:id="@+id/textView"
+        android:textSize="35sp"
+        android:layout_above="@+id/txtIn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="42dp" />
+
+
+
+</RelativeLayout>

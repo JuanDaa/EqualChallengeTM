@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#01bcd4</color>
+    <color name="colorPrimaryDark">#009aae</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="card">#92ececec</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="color_on">#009aae</color>
+    <color name="elegirservi">#e224ce9d</color>
+</resources>
